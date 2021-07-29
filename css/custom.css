@@ -80,6 +80,17 @@ body{
 
 /* ################Accordion################## */
 
+.acc-btn:not(.collapsed) {
+    box-shadow: none !important;
+    color: black !important;
+    background-color: #FFFFFF;
+}
+
+.acc-btn:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
 .accord{
     padding: 1rem;
 }
