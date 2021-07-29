@@ -1,7 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
 
 body{
     font-family: 'Poppins', sans-serif !important;
+}
+
+/* ##############Header############ */
+header{
+    background: #264653;
+}
+
+.info{
+    font-weight: 200;
+    font-size: 1rem;
+    color: #E0E0E0;
+}
+
+.btn{
+    background: #E76F51;
+    padding: 0.8rem 2.8rem;
+    color: #FFFFFF;
+}
+
+.header-img{
+    width: 34rem;
 }
 
 .featured-img{
@@ -62,4 +83,18 @@ body{
     .accord{
         padding: 0 7rem;
     }
+}
+
+
+/* #################Modal Section################### */
+
+.input-field{
+    border: 1px solid #E77C40;
+    border-radius: 5px;
+    padding: 0.8rem 0.5rem;
+    width: 100%;
+}
+
+.modal-card{
+    width: 30rem;
 }

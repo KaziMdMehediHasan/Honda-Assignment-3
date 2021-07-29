@@ -11,11 +11,26 @@
 </head>
 <body>
     <header>
-
+        <!-- top banner section -->
+        <section class="container top-section py-2">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 text-white px-5">
+                    <p class="info">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="fw-bold title">Honda CBR 300R</h1>
+                    <p class="info">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                       Exercitation veniam consequat sunt nostrud amet.</p>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#productModal">Purchase</button>   
+                </div>
+                <div class="col-12 col-lg-6 px-5 my-5 my-lg-0">
+                    <img src="images/header-bike.png" class="header-img img-fluid" alt="">
+                </div>
+            </div>
+        </section>
+        <!--end of top banner section -->
     </header>
-    <main>
+    <main class="overflow-hidden">
         <!-- featured bike section -->
-        <section class="featured-bike container overflow-hidden py-5">
+        <section class="featured-bike container py-5">
             <div class="py-5">
                 <h1 class="fs-1 fw-bold text-center">Fetured Bikes 2021</h1>
                 <p class="colored-text text-center">Best bike collection</p>
@@ -133,7 +148,7 @@
 
         <!-- frequently asked questions  -->
         <section class="frequent container py-5">
-            <h1 class="fw-bold text-center title my-5">Frequently <span class="rating">Asked Questions</span></h1>
+            <h1 class="fw-bold text-center title py-5">Frequently <span class="rating">Asked Questions</span></h1>
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-lg-4">
                     <img src="images/faq.png" class="img-fluid" alt="">
@@ -208,8 +223,88 @@
             </div>
         </section>
         <!--end of frequently asked questions  -->
+
+       <!---- modal form design -->
+        <!-- <div class="row justify-content-center">
+            <div class="col-5 modal-card">
+                <h1 class="text-center my-5">Order Now</h1>
+                <form class="d-flex flex-column align-items-center">
+                    <h3 class="rating">Personal Info</h3>
+
+                    <p class="text-dark">First Name</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="enter your first name">
+                    <p class="text-dark">Last Name</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="enter your last name">
+                    <p class="text-dark">Email</p>
+                    <input class="input-field mb-3" type="email" name="name" id="" placeholder="eg: email@mail.com">
+                    <p class="text-dark">Password</p>
+                    <input class="input-field mb-3" type="password" name="name" id="" placeholder="eg: 12384">
+                    <h3 class="rating">Address</h3>
+                    <p class="text-dark">Country</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="Country Name">
+                    <p class="text-dark">State</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: California">
+                    <p class="text-dark">Street</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: 123, baker street">
+                    <p class="text-dark">Postal</p>
+                    <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: GPO: 1234">
+                </form>
+            </div>
+        </div> -->
+        <!--end of modal form design
     </main>
-  
+    <footer>
+
+    </footer>
+    <!-- modal  -->
+    <div class="modal fade" id="productModal" tab-index="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <!-- modal header -->
+                <div class="modal-header mx-auto">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                        <span aria-hidden="true"></span>
+                    </button>
+                </div>
+                <!--end of modal header -->
+
+                <!-- modal body -->
+                <div class="row justify-content-center">
+                    <div class="col-5 modal-card">
+                        <h1 class="text-center my-5">Order Now</h1>
+                        <form class="d-flex flex-column align-items-center">
+                            <h3 class="rating">Personal Info</h3>
+        
+                            <p class="text-dark">First Name</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="enter your first name">
+                            <p class="text-dark">Last Name</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="enter your last name">
+                            <p class="text-dark">Email</p>
+                            <input class="input-field mb-3" type="email" name="name" id="" placeholder="eg: email@mail.com">
+                            <p class="text-dark">Password</p>
+                            <input class="input-field mb-3" type="password" name="name" id="" placeholder="eg: 12384">
+                            <h3 class="rating">Address</h3>
+                            <p class="text-dark">Country</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="Country Name">
+                            <p class="text-dark">State</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: California">
+                            <p class="text-dark">Street</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: 123, baker street">
+                            <p class="text-dark">Postal</p>
+                            <input class="input-field mb-3" type="text" name="name" id="" placeholder="eg: GPO: 1234">
+                        </form>
+                    </div>
+                </div>
+                <!--end of modal body -->
+                <!-- modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal">Place Order</button>
+                </div>
+                <!--end of modal footer -->
+            </div>
+        </div>
+    </div>
+    <!--end of modal  -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
