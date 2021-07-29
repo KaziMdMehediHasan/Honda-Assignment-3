@@ -21,6 +21,10 @@ body{
     color: #FFFFFF;
 }
 
+.btn:focus{
+    box-shadow: none !important;
+}
+
 .header-img{
     width: 34rem;
 }
