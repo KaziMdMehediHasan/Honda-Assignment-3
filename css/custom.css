@@ -5,7 +5,7 @@ body{
 }
 
 /* ##############Header############ */
-header{
+.header{
     background: #264653;
 }
 
@@ -43,6 +43,12 @@ header{
 @media screen and (max-width:688px) {
     .height{
         height: 35rem;
+    }
+}
+
+@media screen and (min-width:689px) and (max-width: 991px){
+    .height{
+        height: 43rem;
     }
 }
 /* #############Card Section ######### */
@@ -105,4 +111,11 @@ header{
 
 .modal-card{
     width: 30rem;
+}
+
+/* ##############Map################# */
+
+.map{
+    width: 37.2rem;
+    height: 30rem;
 }
