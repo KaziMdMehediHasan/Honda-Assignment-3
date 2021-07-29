@@ -37,6 +37,14 @@ header{
     margin: 4rem 0 4rem 0;
 }
 
+
+
+/* ##############Specifications############### */
+@media screen and (max-width:688px) {
+    .height{
+        height: 35rem;
+    }
+}
 /* #############Card Section ######### */
 
 .card-img{
