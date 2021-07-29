@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
-*{
+body{
     font-family: 'Poppins', sans-serif !important;
 }
 
@@ -14,4 +14,52 @@
 
 .margin{
     margin: 4rem 0 4rem 0;
+}
+
+/* #############Card Section ######### */
+
+.card-img{
+    width: 9.3rem;
+}
+
+.single-client{
+    border: 1px solid #DEDEDE;
+}
+
+.client-name{
+    color: #23A6F0
+}
+
+.fixed-width{
+    width: 20.2rem;
+}
+
+.rating{
+    color: #E77C40;
+}
+
+.title{
+    font-size: 3rem !important;
+    line-height: 1.5;
+}
+
+/* ################Accordion################## */
+
+.accord{
+    padding: 1rem;
+}
+
+.margin-top{
+    border-top: 1px solid rgb(226, 226, 226) !important;
+}
+
+.header{
+    color: #383838 !important;
+
+}
+
+@media screen and (min-width: 1312px){
+    .accord{
+        padding: 0 7rem;
+    }
 }
